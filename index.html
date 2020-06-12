@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #333333;
+        color: #fff;
+      }
+
+      hr {
+        background-color: white;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-xl">
+      <div class="container">
+        <h1>This is heading level 1</h1>
+        <h2>This is heading level 2</h2>
+        <h3>This is heading level 3</h3>
+        <h4>This is heading level 4</h4>
+        <h5>This is heading level 5</h5>
+        <h6>This is heading level 6</h6>
+      </div>
+
+      <hr />
+
+      <div class="container">
+        <h1>Alerts</h1>
+
+        <div class="alert alert-primary" role="alert">Iam stupid</div>
+        <div class="alert alert-secondary" role="alert">Iam stupid</div>
+        <div class="alert alert-danger" role="alert">Iam stupid</div>
+        <div class="alert alert-warning" role="alert">Iam stupid</div>
+        <div class="alert alert-success" role="alert">Iam stupid</div>
+        <div class="alert alert-info" role="alert">Iam stupid</div>
+      </div>
+
+      <div class="container">
+        <div class="alert alert-primary" role="alert">
+          Iam <a href="/" class="alert-link">stupid</a>
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          Iam <a href="/" class="alert-link">stupid</a>
+        </div>
+        <div class="alert alert-danger" role="alert">
+          Iam <a href="/" class="alert-link">stupid</a>
+        </div>
+        <div class="alert alert-warning" role="alert">
+          Iam <a href="/" class="alert-link">stupid</a>
+        </div>
+        <div class="alert alert-success" role="alert">
+          Iam <a href="/" class="alert-link">stupid</a>
+        </div>
+        <div class="alert alert-info" role="alert">
+          Iam <a href="/" class="alert-link">stupid</a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="alert alert-success" role="alert">
+          <h4 class="alert-heading">Well done!</h4>
+          <p>
+            Aww yeah, you successfully read this important alert message. This
+            example text is going to run a bit longer so that you can see how
+            spacing within an alert works with this kind of content.
+          </p>
+          <hr />
+          <p class="mb-0">
+            Whenever you need to, be sure to use margin utilities to keep things
+            nice and tidy.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="container">
+        <h1>Button</h1>
+
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <button type="button" class="btn btn-link">Link</button>
+      </div>
+
+      <div class="container">
+        <h1>Button tags</h1>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input" />
+        <input class="btn btn-primary" type="submit" value="Submit" />
+        <input class="btn btn-primary" type="reset" value="Reset" />
+      </div>
+
+      <div class="container">
+        <h1>Button Custon Outline COlors</h1>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">
+          Secondary
+        </button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </div>
+
+      <div class="container">
+        <button class="btn btn-primary btn-lg">Large</button>
+        <button class="btn btn-primary btn-sm">Small</button>
+      </div>
+
+      <hr />
+      <div class="container">
+        <h1>Button groups</h1>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary">Left</button>
+          <button type="button" class="btn btn-secondary">Middle</button>
+          <button type="button" class="btn btn-secondary">Right</button>
+        </div>
+      </div>
+
+      <hr />
+      <div class="container">
+        <h1>Cards</h1>
+        <div class="card bg-danger">
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <h5 class="card-subtitle text-light">Subtitle</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+              quos exercitationem et, voluptas aliquam ducimus minus blanditiis
+              inventore aliquid ab!
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-primary">Cras justo odio</li>
+            <li class="list-group-item bg-success">Dapibus ac facilisis in</li>
+            <li class="list-group-item bg-warning">Vestibulum at eros</li>
+          </ul>
+        </div>
+        <div class="card text-center bg-info">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
+        <hr />
+        <div class="container">
+          <form>
+            <h1>Forms</h1>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control form-control-lg" />
+            </div>
+            <div class="form-group">
+              <input type="checkbox" class="form-check-input" />
+              <label class="form-check-label">Check me boiiiiiiiiii</label>
+              <input type="checkbox" class="form-check-input" disabled />
+              <label class="form-check-label">Check me</label>
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label for="formControlFile">File Input</label>
+              <input type="file" class="form-control-file" />
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label>Raneg input</label>
+              <input type="range" class="form-control-range" />
+            </div>
+          </form>
+        </div>
+        <hr />
+        <div class="container">
+          <h1>Tables</h1>
+          <table class="table table-dark table-striped table-hover">
+            <caption>
+              Captions are for noobs
+            </caption>
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
